@@ -20,7 +20,7 @@ LFLAGS=-lm
 CC=gcc
 CPP=g++
 
-
+all: testlist
 
 
 #
