@@ -2,6 +2,7 @@
 #include <string>
 #include "namelist.h"
 
+
 using std::cout;
 using std::endl;
 
