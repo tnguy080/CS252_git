@@ -15,7 +15,7 @@ const char* names[] = {"Adams", "Baker", "Clarke", "Daniels", "Evans",
 };  
 
 
-void testList (int numberOfItems)
+void testLists (int numberOfItems)
 {
   NameList L;
   // Test part 1 - try adding to the front
@@ -25,7 +25,7 @@ void testList (int numberOfItems)
       L.addToFront (names[i]);
     }
   L.print(cout);
-  cout << endl;
+  coutt << endl;
   cout << "**end of test " << numberOfItems << ", part 1 ***" << endl;
 
 
