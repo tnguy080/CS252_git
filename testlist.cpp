@@ -25,7 +25,7 @@ void testLists (int numberOfItems)
       L.addToFront (names[i]);
     }
   L.print(cout);
-  coutt << endl;
+  cout << endl;
   cout << "**end of test " << numberOfItems << ", part 1 ***" << endl;
 
 
@@ -46,7 +46,7 @@ int main()
 {
   for (int test = 26; test >= 0; --test)
     {
-      testList(test);
+      testLists(test);
     }
 
   return 0;
